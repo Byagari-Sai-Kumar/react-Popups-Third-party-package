@@ -1,0 +1,79 @@
+.navBarContainer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 80%;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.hamburgerIcon {
+  font-size: 30px;
+  color: #616e7c;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.linkComponent {
+  height: 80%;
+  text-decoration: none;
+}
+
+.hamburgerButton {
+  background: none;
+  border: none;
+}
+
+.closeContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.closeButtonIcon {
+  align-self: flex-end;
+  padding-right: 40px;
+  background: none;
+  border: none;
+}
+
+.unorderedPopUpContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0px;
+  height: 80vh;
+}
+
+.lisItems {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linkedItems {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+
+.homeIcon {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.home {
+  font-size: 20px;
+}
